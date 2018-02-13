@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.0.0",
+
+  "description": "__MSG_extensionDescription__",
+
+  "homepage_url": "https://github.com/M-Reimer/disable-hyphenation",
+  "author": "Manuel Reimer",
+
+  "applications": {
+    "gecko": {
+      "id": "{d1f6c73f-aa61-4787-8e4e-810ca91b832e}",
+      "strict_min_version": "48.0"
+    }
+  },
+
+  "icons": {
+    "24": "icons/disable-hyphenation.svg",
+    "32": "icons/disable-hyphenation.svg",
+    "50": "icons/disable-hyphenation.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "css": ["stylesheet.css"]
+    }
+  ],
+
+  "default_locale": "en"
+}

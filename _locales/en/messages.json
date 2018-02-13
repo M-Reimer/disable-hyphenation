@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Disable Hyphenation",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Disables hyphenation on websites globally.",
+    "description": "Description of the extension."
+  }
+}

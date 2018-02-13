@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Silbentrennung deaktivieren",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Deaktiviert die Silbentrennung für alle Webseiten.",
+    "description": "Description of the extension."
+  }
+}
